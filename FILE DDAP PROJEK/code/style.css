@@ -1,3 +1,72 @@
 .navbar-brand {
     color: red;
 }
+
+.donasi-button{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    position: relative;
+}
+
+#donasi-images{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+    border-radius: 2%;
+    margin-right: 1rem;
+}
+
+#Judul-Donasi{
+    margin-left: 0;
+    position:relative;
+    top: 0;
+}
+
+td, tr, table{
+    border: none;
+    text-decoration: none;
+}
+
+#jumlah-terkumpul{
+    line-height: 0.2;
+}
+
+#sisa-hari-donasi{
+    text-align: right;
+    margin-right: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#status-donasi{
+    color: lightslategray;
+}
+
+#nav-button-donasi{
+    margin-left: 3rem;
+}
+
+.nav-button-selainDonasi{
+    padding-left: 2rem;
+}
+
+#nav-button-kesehatan{
+    margin-right: 2rem;
+}
+
+#nav-button-kemanusiaan{
+    margin-right: 2rem;
+}
+
+#nav-button-bencanaalam{
+    margin-right: 2rem;
+}
+
+#nav-button-zakat{
+    margin-right: 2rem;
+}
+
+#nav-button-pendidikan{
+    margin-right: 2rem;
+}

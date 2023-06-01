@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Donation Page</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    </head>
+    <body style="margin-left: 60px; margin-right: 60px;">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="d-flex align-items-center">
+            <a class="navbar-brand" href="#">
+              <img src="./images/biru laut 2.png" alt="Logo" width="50" height="50" class="d-inline-block align-items-center">
+              Justlifey.
+            </a>
+            <form class="d-flex ms-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Proyek
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Galeri
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Donasi
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Statistik
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <a class="profile" href="akun.html">
+              <img src="./images/user.png" alt="Logo" width="45" height="45" class="d-inline-block align-items-center"></a>
+          </div>
+        </div>
+      </nav>
+
+      <div page>
+        <div class="nav-button-donasi d-flex" id="nav-button-donasi">
+          <div class="btn-group">
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Donasi
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </div>
+          <div class="nav-button-selainDonasi">
+            <button type="button" class="btn btn-primary" id="nav-button-kesehatan"> <img src="./images/Navigasi Button/kesehatan.png" alt="kesehatan" sizes="50%"> Kesehatan</button>
+            <button type="button" class="btn btn-outline-success" id="nav-button-kemanusiaan">Kemanusiaan</button>
+            <button type="button" class="btn btn-outline-warning" id="nav-button-bencanaalam">Bencana Alam</button>
+            <button type="button" class="btn btn-outline-success" id="nav-button-zakat">Zakat</button>
+            <button type="button" class="btn btn-outline-danger" id="nav-button-pendidikan">Pendidikan</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Donasi 1 -->
+      <div class="donasi-button">
+        <table>
+          <tr>
+            <td id="kolom-gambar-donasi">
+              <img src="./images/Donasi Page/a-young-Black-maybe-Asian-child-in-the-hospital-with-an-IV-perhaps-sick-with-cancer-16x9-1.webp" id="donasi-images" alt="Donasi" width="250px" height="120%">
+            </td>
+            <td class="donasi-buttons">
+              <h3 id="Judul-Donasi">
+                Tubuh Kaku dan Kurus akibat Meningitis TB, Yuk Bantu Ramdhan Sembuh!
+              </h3>
+              <p id="status-donasi">
+                Dana terkumpul
+              </p>
+              <p id="penggalang-donasi">
+                <img src="./images/Donasi Page/logo verified.png" alt="verified" width="15" height="15"> Era Bening Indonesia
+              </p>
+              <p id="bar-progress">
+                <progress value="0" max="100" style="width: 50rem"></progress>
+              </p>
+              <p id="jumlah-terkumpul">
+                Rp. 0
+              </p>
+              <p id="jumlah-donatur">
+                0 donatur
+              </p>
+              <p id="sisa-hari-donasi">
+                179 hari
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <br>
+
+      <!-- Donasi 2 -->
+      <div class="donasi-button">
+        <table>
+          <tr>
+            <td id="kolom-gambar-donasi">
+              <img src="./images/Donasi Page/topan.jpeg" id="donasi-images" alt="Donasi" width="250px" height="120%">
+            </td>
+            <td class="donasi-buttons">
+              <h3 id="Judul-Donasi">
+                Bantu Topan Mencari Jodohnya
+              </h3>
+              <p id="status-donasi">
+                Dana terkumpul
+              </p>
+              <p id="penggalang-donasi">
+                <img src="./images/Donasi Page/logo verified.png" alt="verified" width="15" height="15"> Roro Foundation
+              </p>
+              <p id="bar-progress">
+                <progress value="9" max="100" style="width: 50rem"></progress>
+              </p>
+              <p id="jumlah-terkumpul">
+                Rp. 360.000
+              </p>
+              <p id="jumlah-donatur">
+                9 donatur
+              </p>
+              <p id="sisa-hari-donasi">
+                176 hari
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <br>
+
+      <!-- Donasi 3 -->
+      <div class="donasi-button">
+        <table>
+          <tr>
+            <td id="kolom-gambar-donasi">
+              <img src="./images/Donasi Page/donasi 3.PNG" id="donasi-images" alt="Donasi" width="250px" height="120%">
+            </td>
+            <td class="donasi-buttons">
+              <h3 id="Judul-Donasi">
+                Derita Jantung Bocor Sejak Lahir, Rizki Tak Punya Biaya untuk Berobat!
+              </h3>
+              <p id="status-donasi">
+                Dana terkumpul
+              </p>
+              <p id="penggalang-donasi">
+                <img src="./images/Donasi Page/logo verified.png" alt="verified" width="15" height="15"> Roro Foundation
+              </p>
+              <p id="bar-progress">
+                <progress value="9" max="100" style="width: 50rem"></progress>
+              </p>
+              <p id="jumlah-terkumpul">
+                Rp. 352.100
+              </p>
+              <p id="jumlah-donatur">
+                14 donatur
+              </p>
+              <p id="sisa-hari-donasi">
+                173 hari
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <br>
+
+      <!-- Donasi 4 -->
+      <div class="donasi-button">
+        <table>
+          <tr>
+            <td id="kolom-gambar-donasi">
+              <img src="./images/Donasi Page/donasi 4.PNG" id="donasi-images" alt="Donasi" width="250px" height="120%">
+            </td>
+            <td class="donasi-buttons">
+              <h3 id="Judul-Donasi">
+                Benjolan terus Membesar di belakang Telinganya, Fifi Butuh Biaya untuk Berobat!
+              </h3>
+              <p id="status-donasi">
+                Dana terkumpul
+              </p>
+              <p id="penggalang-donasi">
+                <img src="./images/Donasi Page/logo verified.png" alt="verified" width="15" height="15"> Erwin Dedi Antoni
+              </p>
+              <p id="bar-progress">
+                <progress value="9" max="100" style="width: 50rem"></progress>
+              </p>
+              <p id="jumlah-terkumpul">
+                Rp. 352.100
+              </p>
+              <p id="jumlah-donatur">
+                14 donatur
+              </p>
+              <p id="sisa-hari-donasi">
+                173 hari
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <br>
+
+      <!-- Donasi 5 -->
+      <div class="donasi-button">
+        <table>
+          <tr>
+            <td id="kolom-gambar-donasi">
+              <img src="./images/Donasi Page/donasi 5.PNG" id="donasi-images" alt="Donasi" width="250px" height="120%">
+            </td>
+            <td class="donasi-buttons">
+              <h3 id="Judul-Donasi">
+                Alami Sindrom Down dan Jantung Bocor, Alira Butuh Biaya Berobat ke Jakarta!
+              </h3>
+              <p id="status-donasi">
+                Dana terkumpul
+              </p>
+              <p id="penggalang-donasi">
+                <img src="./images/Donasi Page/logo verified.png" alt="verified" width="15" height="15"> Roro Foundation
+              </p>
+              <p id="bar-progress">
+                <progress value="30" max="100" style="width: 50rem"></progress>
+              </p>
+              <p id="jumlah-terkumpul">
+                Rp. 666.159
+              </p>
+              <p id="jumlah-donatur">
+                30 donatur
+              </p>
+              <p id="sisa-hari-donasi">
+                166 hari
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <br>
+
+      <!-- Donasi 6 -->
+      <div class="donasi-button">
+        <table>
+          <tr>
+            <td id="kolom-gambar-donasi">
+              <img src="./images/Donasi Page/donasi 6.PNG" id="donasi-images" alt="Donasi" width="250px" height="120%">
+            </td>
+            <td class="donasi-buttons">
+              <h3 id="Judul-Donasi">
+                Tubuh Kurus akibat Derita Kelumpuhan Otot, Faisyal Tak Punya Biaya untuk Berobat!
+              </h3>
+              <p id="status-donasi">
+                Dana terkumpul
+              </p>
+              <p id="penggalang-donasi">
+                <img src="./images/Donasi Page/logo verified.png" alt="verified" width="15" height="15"> Saling Berbagi
+              </p>
+              <p id="bar-progress">
+                <progress value="14" max="100" style="width: 50rem"></progress>
+              </p>
+              <p id="jumlah-terkumpul">
+                Rp. 533.947
+              </p>
+              <p id="jumlah-donatur">
+                14 donatur
+              </p>
+              <p id="sisa-hari-donasi">
+                160 hari
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <br>
+    </body>
+</html>
