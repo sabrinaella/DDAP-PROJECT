@@ -2,6 +2,7 @@
     color: red;
 }
 
+/* Donasi Page */
 .donasi-button{
     border-radius: 10px;
     box-shadow: 5px 5px 10px lightgray;
@@ -12,14 +13,20 @@
     margin-top: 1rem;
     margin-left: 1rem;
     display: inline-block;
-    border-radius: 2%;
+    border-radius: 4px;
     margin-right: 1rem;
+    width: 413px;
+    height: 235px;
+    left: 72px;
+    top: 191px;
 }
 
 #Judul-Donasi{
     margin-left: 0;
     position:relative;
     top: 0;
+    color: #45545B;
+    position:absolute;
 }
 
 td, tr, table{
@@ -27,8 +34,39 @@ td, tr, table{
     text-decoration: none;
 }
 
+#status-donasi{
+    color: #9BB0BD;
+    position:absolute;
+    bottom: 9rem;
+}
+
+#penggalang-donasi{
+    color: #3A99D8;
+    position: absolute;
+    bottom: 7rem;
+}
+
+#bar-progress{
+    border-radius: 100px;
+    bottom: 4.5rem;
+    position: absolute;
+}
+
 #jumlah-terkumpul{
     line-height: 0.2;
+    color: #45545B;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    position: absolute;
+    bottom: 3rem;
+}
+
+#jumlah-donatur{
+    color: #6D899B;
+    position: absolute;
+    bottom: 1rem;
 }
 
 #sisa-hari-donasi{
@@ -37,10 +75,7 @@ td, tr, table{
     position: absolute;
     bottom: 0;
     right: 0;
-}
-
-#status-donasi{
-    color: lightslategray;
+    color: #3A99D8;
 }
 
 #nav-button-donasi{
