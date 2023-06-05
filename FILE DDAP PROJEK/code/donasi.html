@@ -11,73 +11,38 @@
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     </head>
     <body style="margin-left: 60px; margin-right: 60px;">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <div class="d-flex align-items-center">
-            <a class="navbar-brand" href="home.html">
-              <img src="./images/biru laut 2.png" alt="Logo" width="50" height="50" class="d-inline-block align-items-center">
-              Justlifey.
-            </a>
-            <form class="d-flex ms-3" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Proyek
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Galeri
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Donasi
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Statistik
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-            <a class="profile" href="akun.html">
-              <img src="./images/user.png" alt="Logo" width="45" height="45" class="d-inline-block align-items-center"></a>
-          </div>
-        </div>
-      </nav>
+      <!-- NavBar -->
+<nav class="navbar navbar-expand-md bg-light navbar-light fixed-top" style="box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+  <div class="container-fluid" style="margin-left: 50px; margin-right: 50px">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="./images/logo brand.png" alt="Logo" style="width:40px; margin-right: 10px;">
+      <span class="brand-name">Justlifey.</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar" style="margin-left: 30px;">
+      <form class="d-flex ml-auto">
+        <input class="form-control form-control-sm me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+      <!-- Dropdown -->
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="javascript:void(0)">Proyek Terkini</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="javascript:void(0)">Kategori Donasi</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="javascript:void(0)">Galang Dana</a>
+        </li>
+      </ul>
+      <img src="./images/profile.png" alt="Profile" style="width:40px;" class="rounded-pill d-none d-sm-inline">
+    </div>
+  </div>
+</nav>
+<div class="container-fluid" style="margin-top:80px">
 
       <br>
       <br>
