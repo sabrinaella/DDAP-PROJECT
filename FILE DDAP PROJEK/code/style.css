@@ -2,6 +2,10 @@
     color: red;
 }
 
+.donasi-button, #nav-button-donasi{
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Donasi Page */
 .donasi-button{
     border-radius: 10px;
@@ -27,11 +31,11 @@
     top: 0;
     color: #45545B;
     position:absolute;
+    font-size: x-large;
 }
 
 td, tr, table{
-    border: none;
-    text-decoration: none;
+    border-radius: 5px;
 }
 
 #status-donasi{
@@ -104,4 +108,38 @@ td, tr, table{
 
 #nav-button-pendidikan{
     margin-right: 2rem;
+}
+
+/* Donasi CLick 1 */
+.donasi-click-1{
+    display:inline-block;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#donasi-click-image{
+    width: 50rem;
+    height: 30rem;
+    align-items: center;
+}
+
+#verifikasi-donasi, #penggalang-donasi-click, #jumlah-terkumpul-click{
+    color: #3A99D8;
+}
+
+#jumlah-terkumpul-click{
+    font-size: 22px;
+}
+
+#table-header{
+    border-radius: 5px;
+}
+
+#table-kisah{
+    text-align: justify;
+}
+
+#table-header, #table-kisah, #table-diagnosis, #table-donatur{
+    border-radius: 10px;
+    padding: 1rem;
 }
